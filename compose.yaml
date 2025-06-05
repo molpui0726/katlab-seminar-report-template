@@ -1,7 +1,7 @@
 services:
   latex:
     build: .
-    container_name: katlab-seminar-report-template
+    container_name: seminar-report
     volumes:
       - .:/workspace
     working_dir: /workspace
